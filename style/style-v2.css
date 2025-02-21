@@ -42,8 +42,8 @@ html, body {
 body {
   line-height: 1;
   font-size: 16px;
-  font-weight: 400;
-  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  font-family: "Alegreya SC", serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -114,7 +114,7 @@ img {
 .title {
   text-align: center;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 
@@ -163,12 +163,12 @@ img {
 }
 .intro-text__title {
   font-size: calc(30px + 13 * (100vw / 1190));
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 50px;
 }
 .intro-text__info {
   font-size: calc(25px + 13 * (100vw / 1190));
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 .intro-text__info.margin {
@@ -176,7 +176,7 @@ img {
 }
 .intro-text__description {
   font-size: calc(28px + 13 * (100vw / 1190));
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .intro-image {
@@ -223,7 +223,7 @@ img {
 .time-count__title {
   margin: 0;
   margin-bottom: 35px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
   font-size: calc(28px + 12 * (100vw / 1190));
   line-height: 47px;
@@ -247,14 +247,14 @@ img {
 .time-count__val {
   font-family: monospace;
   min-width: 81px;
-  font-weight: 700;
+  font-weight: 800;
   font-size: calc(40px + 25 * (100vw / 1190));
   line-height: 82px;
   color: var(--color-accent);
 }
 
 .time-count__separator {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 48px;
   line-height: 74px;
   text-align: center;
@@ -265,7 +265,7 @@ img {
 
 .time-count__text {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: var(--color-dark);
@@ -274,7 +274,7 @@ img {
 .products__title {
   text-align: center;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 .products__row .products__swipe_image {
@@ -344,12 +344,12 @@ img {
 }
 .item__title {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 .item__info {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 .item__price {
@@ -365,12 +365,14 @@ img {
   color: #000;
 }
 .item__button {
+  font-family: "Alegreya SC", serif;
+  letter-spacing: 0.7px;
   width: 140px;
   height: 45px;
   background-color: #E77E7F;
   border-radius: 50px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -475,7 +477,7 @@ img {
 
 .info-delivery__title {
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 .info-delivery__text {
@@ -525,8 +527,9 @@ img {
 .other__text {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .icon-cart {
@@ -604,7 +607,7 @@ img {
 }
 .cart__title {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 .cart__products {
@@ -781,6 +784,10 @@ img {
   border: 1px solid #c7c7c7;
   border-radius: 10px;
 }
+.form__send {
+  letter-spacing: 0.5px;
+}
+
 .success {
   display: none;
   -webkit-box-pack: center;
